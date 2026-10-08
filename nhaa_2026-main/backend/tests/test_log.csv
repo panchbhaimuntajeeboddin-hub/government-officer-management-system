@@ -1,0 +1,16 @@
+channel,risk_tier,expected_recipients,actual_recipients,pass_fail,date
+portal,low,operator,operator,PASS,2026-09-02T19:24:29.796549+00:00
+chatbot,low,operator,operator,PASS,2026-09-02T19:24:29.939419+00:00
+ivrs,low,operator,operator,PASS,2026-09-02T19:24:30.089361+00:00
+mobile_app,low,operator,operator,PASS,2026-09-02T19:24:30.238994+00:00
+portal,moderate,district,district,PASS,2026-09-02T19:24:30.376185+00:00
+chatbot,moderate,district,district,PASS,2026-09-02T19:24:30.516248+00:00
+ivrs,moderate,district,district,PASS,2026-09-02T19:24:30.654022+00:00
+mobile_app,moderate,district,district,PASS,2026-09-02T19:24:30.783358+00:00
+all-4-channels,n/a,"17,18,19,20","17,18,19,20",PASS,2026-09-02T19:24:31.566803+00:00
+test-fixture,low,operator,operator,PASS,2026-09-02T19:24:32.030070+00:00
+test-fixture,moderate,district,district,PASS,2026-09-02T19:24:32.096145+00:00
+test-fixture,high,"district,dlsa,police","district,dlsa,police",PASS,2026-09-02T19:24:32.176210+00:00
+test-fixture,critical,"district,medical,police,state,witness_protection","district,medical,police,state,witness_protection",PASS,2026-09-02T19:24:32.269214+00:00
+bypass-attempt,critical,blocked,blocked,PASS,2026-09-02T19:24:32.653799+00:00
+api-endpoint,critical,"district,medical,police,state,witness_protection","district,medical,police,state,witness_protection",PASS,2026-09-02T19:24:32.822628+00:00
